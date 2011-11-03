@@ -20,7 +20,7 @@ import javax.swing.JPanel;
  */
 @SuppressWarnings("serial")
 public class Graph extends JPanel implements MouseListener, MouseMotionListener, MouseWheelListener, ComponentListener {
-    private static final int DEFAULT_COMPRESSION = 10;
+    private static final int DEFAULT_COMPRESSION = 1;
     
     private static final int DEFAULT_SCALE = 12;
     private static final int MIN_SCALE = 1;
@@ -30,7 +30,7 @@ public class Graph extends JPanel implements MouseListener, MouseMotionListener,
     private static final Color BACKGROUND_COLOR = Color.white;
     private static final Color GRID_COLOR = new Color(230, 230, 230);//grayish
     private static final Color AXIS_COLOR = Color.black;
-    private static final Color LINE_COLOR = Color.green;
+    private static final Color LINE_COLOR = Color.blue;
     private static final Color EQUATION_COLOR = Color.red;
     
     private static final boolean DEFAULT_SHOW_POINT_DOTS = false;
