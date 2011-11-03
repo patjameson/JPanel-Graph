@@ -1,4 +1,5 @@
 package graph;
+
 import java.awt.Color;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
@@ -31,7 +32,7 @@ public class Graph extends JPanel implements MouseListener, MouseMotionListener,
     private static final Color BACKGROUND_COLOR = Color.white;
     private static final Color GRID_COLOR = new Color(230, 230, 230);//grayish
     private static final Color AXIS_COLOR = Color.black;
-    private static final Color LINE_COLOR = Color.green;
+    private static final Color LINE_COLOR = Color.blue;
     private static final Color EQUATION_COLOR = Color.red;
     
     private static final boolean DEFAULT_SHOW_POINT_DOTS = false;
